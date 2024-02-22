@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+    
+    
+    
+    
+    
+    body{
+        background-color: rgb(242, 242, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+    
+    .main-div{
+        margin: auto;
+        max-width: 67rem;
+        /* background-image: url(https://i.ibb.co/m9W52kY/bg-pattern-top-desktop.png), url(https://i.ibb.co/XXBDwd1/bg-pattern-bottom-desktop.png);
+        background-size: 1500px ;
+        background-repeat: no-repeat; */
+    background: url(https://i.ibb.co/m9W52kY/bg-pattern-top-desktop.png) left top no-repeat, url(https://i.ibb.co/XXBDwd1/bg-pattern-bottom-desktop.png) right bottom no-repeat; 
+    background-size: 541px 329px, 743px 540px;
+    }
+    .main-upperdiv{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    
+        }
+    
+    .main-lowerdiv{
+        display: flex;
+        margin-top: 5rem;
+        gap: 20px;
+    }
+    .rated{ 
+       background-color:hsl(300, 24%, 96%); 
+       font-family: "League Spartan", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+       border-radius: 4px;
+       border: 0.5px solid hsl(300, 24%, 96%);
+       
+       
+        
+    }
+    .flex1{
+        font-size: 50px;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      
+    }
+    .div-two{
+        margin-left: 40px;
+    }
+     
+    
+    .flex2{
+    color: hsl(303, 10%, 53%);
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .darkcolor{
+       color: hsl(300, 43%, 22%); 
+    }
+    
+    .rate-one{
+        margin-bottom: 15px ;
+        padding: 0.3rem 1.5rem;
+        margin-left: 20px;
+        margin-right: 4rem;
+    margin-left: 1rem;
+        
+    }
+    .rate-two{
+        margin-left: 120px;
+        margin-bottom: 15px;
+        padding: 0.3rem 1.5rem ;
+        margin-right: 3rem;
+    margin-left: 2rem;
+
+    }
+    
+    .rate-three{
+        margin-left: 150px;
+        padding: 0.3rem 1.5rem ;
+        margin-right: 2rem;
+        margin-left: 3rem;
+    
+    }
+    
+    .testimonial-one{
+        display: flex;
+        gap: 20px;
+    
+    }
+    
+    .testimonials{
+        background-color: hsl(300, 43%, 22%);
+        padding: 38px;
+        border-radius: 7px;
+        
+    }
+    .testimony-one{
+        margin-right: 1rem;
+        margin-bottom: 2em;
+    }
+    
+    .testimony-two{
+        margin-right: 1rem;
+        margin-bottom: 1em;
+        margin-top: 1rem;
+    }
+    .testimony-three{
+        margin-right: 1rem;
+        margin-top: 2rem;
+    }
+    .txtmony{
+        margin-top: 25px;
+        color: hsl(0, 0%, 100%);
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;}
+        
+        .txtimony {
+            color: hsl(0, 0%, 100%);
+            font-family: "League Spartan", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    .image-borders{
+        width:40px;
+        height: 40px;
+        border-radius:50% ;
+    }
+    
+    .names{
+        display: grid;
+    }
+    .vb{
+        color: hsl(333, 80%, 67%);
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    @media screen and (max-width:375px) {
+       
+       
+        
+        @media screen and (max-width: 375px){
+
+            body{
+                background: url(https://i.ibb.co/QF4hcHk/bg-pattern-top-mobile.png) left top no-repeat, url(https://i.ibb.co/bvcc8nz/bg-pattern-bottom-mobile.png) right bottom no-repeat;
+                display: inline-block;
+                justify-content: center;
+                text-align: center;
+                width: 100%;
+                align-items: center;
+            }
+            .main-div{
+                background: none;
+            }
+            .main-upperdiv{
+                display: grid;
+                gap: 20px;
+            }
+            .div-two{
+                display: inline-block;
+                align-items: center;
+                align-content: center;    
+                background-position: center;
+                border-radius: 0.5rem;
+                color: hsl(300, 43%, 22%);
+                justify-content: center;
+                padding: auto;
+                width: 80%;
+
+            }
+            .div-one{
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .rated{
+                margin: 1px 0 1rem 0;
+            }
+
+            .main-lowerdiv{
+                display: inline-block;
+                display: inline-block;
+                align-items: center;
+                align-content: center;    
+                background-position: center;
+                justify-content: center;
+                height: 100vh;
+                padding: auto;
+            }
+        
+        }
+        
